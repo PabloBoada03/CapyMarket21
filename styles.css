@@ -81,11 +81,10 @@ body {
   .category-grid,
   .offer-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px; /* Espaciado entre elementos */
   }
   
-  .category,
   .offer {
     padding: 10px;
     text-align: center;
@@ -99,6 +98,7 @@ body {
     height: auto;
     border-radius: 5px;
   }
+  
   
   footer {
     text-align: center;
